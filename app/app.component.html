@@ -1,0 +1,36 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+        <li><a href="#"><span class="glyphicon glyphicon-envelope menu-btn"></span>Explore</a></li>
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-search menu-btn">Query</span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-signal menu-btn"></span>Compare</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-cloud-upload menu-btn"></span>Upload</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content contentarea">
+
+    <div class="col-sm-3 sidenav">
+      <p>No Selected query parameter</p>
+
+      <button type="button" class="btn btn-primary active" (click)="clicked()">Generate Report</button>
+    </div>
+
+    <div class="col-sm-8 contentarea"> 
+      <div class="row">
+        <div class="col-sm-12 contentarea-sub">
+     <p class="text-center">No Query Data Available</p>
+        <div  id="chart-line1"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 contentarea-sub">
+        <p class="text-center">No Query Data Visualisation Available</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

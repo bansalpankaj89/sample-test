@@ -1,0 +1,28 @@
+.contentarea {
+  min-height: 900px;
+   height: 100%;
+   margin: 5px;
+}
+
+.contentarea-sub{
+    min-height: 450px;
+    background-color: #f1f1f1;
+    margin-bottom: 5px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+  min-height: 900px;
+  margin: 5px;
+}
+
+.menu-btn{
+  margin-right: 5px;
+}
